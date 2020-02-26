@@ -1,0 +1,326 @@
+/* Estilos Gerais */
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+img{
+	display: block;
+	max-width: 100%;
+}
+
+/*Botão*/
+
+.btn{
+	border: 3px solid #041408;
+	padding: 10px 30px;
+	color: #041408;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .1em;
+}
+
+.btn:hover{
+	color:#FFF;
+	border-color: #FFF;
+}
+
+.btn.btn-verde:hover{
+	color:green;
+	border-color: green;
+}
+
+/*Subtitulo */
+
+
+.subtitulo{
+	font-size: 24px;
+	line-height:30px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.subtitulo:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 8px auto;
+}
+
+
+.subtitulo-interno{
+	font-size: 24px;
+	line-height:30px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.subtitulo-interno:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 8px 0;
+}
+
+
+
+
+
+/* Header */
+.header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: #e9e6df;
+	padding: 15px 0;
+	z-index: 10;
+
+}
+/* Menu Header*/
+.header_menu{
+	text-align: right;
+}
+
+.header_menu ul li{
+	display: inline-block;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+
+.header_menu ul li a{
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 10px 0;
+}
+
+
+
+
+
+
+
+
+/* Introdução */
+
+.introducao {
+	width: 100%;
+	height: 380px;
+	background: url("../img/bg-vivace.jpg") no-repeat center;
+	background-size: cover;
+	text-align: center;
+	margin-top: 93px;
+	padding-top: 90px;
+
+
+
+}
+
+.introducao h1{
+	font-size: 48px;
+	color: #FFF;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-bottom: 60px;
+}
+
+/* Introdução Interna*/
+
+.introducao-interna{
+	width: 100%;
+	margin-top: 92px;
+	height: 160px;
+	text-align: center;
+	color:#000;
+	padding-top: 30px;
+}
+.introducao-interna h1{
+	font-size: 36px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.introducao-interna h1:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 6px auto 10px auto;
+}
+
+
+
+
+
+.sobre-inicio{
+	width: 100%;
+	background: #e9e6df;
+	padding: 60px 0;
+	
+
+}
+.sobre-inicio p{
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 1em;
+	padding-right: 40px;
+} 
+
+/* Estilo botao chamadas*/ 
+
+.call{
+	text-align: center;
+	padding-top: 40px;
+	clear: both;
+	margin-bottom: 20px;
+
+}
+
+.call p{
+
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+
+/* Clientes*/
+
+
+.clientes{
+
+	width: 100%;
+	background: #fff;
+	padding: 40px 0;
+}
+
+
+.clientes_lista li{
+	background: #e9e6df;
+	text-align: center;
+}
+
+.clientes_lista li img{
+	margin: 0 auto;
+}
+
+.clientes_lista li h3{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	margin-top:20px;
+	color:#000;
+}
+
+.clientes_lista li h3:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 2px auto;
+
+}
+
+.clientes_lista li p{
+	color:#000;
+	padding: 10px 20px 20px 20px
+}
+
+
+.clientes_icone{
+	background: #e9e6df;
+	padding: 20px;
+}
+
+
+
+
+
+
+
+
+/* Footer*/
+
+.footer{
+	width: 100%;
+	background-color: #041408;
+	color: #FFF;
+	padding: 10px 0;
+}
+.footer h3{
+	font-size: 18px;
+	line-height: 25px;
+	color:#fff;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: bold;
+}
+.footer h3:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background-color:#fff;
+	margin: 6px 0 12px 0;
+}
+.footer_historia{
+	padding-right: 20px;
+}
+.footer_contato ul li{
+	font-size: 14px;
+	line-height: 20px;
+	font-family: Georgia, "Times New Roman", serif;
+}
+.footer_redes ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+.footer_redes ul li a{
+	border: 3px solid #e9e6df;
+	display: block;
+	padding: 10px;
+}
+.footer_redes ul li a:hover{
+	border-color: #FFF;
+}
+.direitos{
+	width: 100%;
+	background: #e9e6df;
+	padding: 10px 0;
+}
+
+
+/* Campos Ocultos Formulário*/
+
+.nao-aparece{
+	visibility: hidden;
+	position: absolute;
+	height: 0px;
+}
