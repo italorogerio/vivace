@@ -1,13 +1,14 @@
-.clientes{
+.servicos-interno{
 	padding-top: 60px;
+	margin-top: 92px;
 	}
-.clientes p{
+.servicos-interno p{
 	font-size: 18px;
 	line-height: 25px;
 	margin-bottom: 1em;
 	padding-right: 40px;
 }
-.subtitulo-interno-clientes{
+.subtitulo-interno-servicos{
 	text-align: center;
 	font-size: 24px;
 	line-height:30px;
@@ -18,7 +19,7 @@
 	margin-bottom: 20px;
 }
 
-.subtitulo-interno-clientes:after {
+.subtitulo-interno-servicos:after {
 	content: "";
 	display: block;
 	width: 60px;
@@ -27,5 +28,3 @@
 	margin: 8px auto;
 	
 }
-
-
